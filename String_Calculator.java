@@ -5,6 +5,7 @@ public class Main
 {
 	public static void main(String[] args) {
 	   try{
+		args[0]= args[0].replace("n",",");
 	       int[] arr = Arrays.stream(args[0].split(","))
                           .mapToInt(Integer::parseInt)
                           .toArray();
