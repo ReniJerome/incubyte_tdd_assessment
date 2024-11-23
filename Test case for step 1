@@ -8,7 +8,8 @@ Valid inputs:
 
 Invalid Inputs:
 1. Input: Pass integer or any other datatype as inputs. Output: Throw exception that string is required.
-Eg: Input: 2, Output: Exception that string is needed
+Eg: Input: 1,2.  Output: Exception that string is needed
+Update: this will now be taken care of as part of trying to convert the input to integer array.
 2. Input: Pass a string, but pass something that cannot be parsed into integer array. Output : Exception with "A list of integers within string is required"
-
+Eg: Input 1,2.  The dot at the end is wrong, so exception will be thrown.
 
