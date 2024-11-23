@@ -8,6 +8,16 @@ public class Main
 	       int[] arr = Arrays.stream(args[0].split(","))
                           .mapToInt(Integer::parseInt)
                           .toArray();
+
+		    int sum = 0;
+	            if(arr.length !=0)
+	            {
+	                for (int i=0;i<arr.length; i++)
+	                {
+	                    sum += arr[i];
+	                }
+	            }
+	            System.out.println("Sum is "+sum);
 	   }
 	   	catch(NumberFormatException e)
 		{
