@@ -1,0 +1,14 @@
+Test Cases:
+
+Valid inputs:
+1. Input = "",  Expected Output = 0
+2. Input = "1,5", Expected Output = 6
+3. Input = "-2, 4, 0", Expected Output = 2
+4. Input = "-99 , 99", Expected Output = 0
+
+Invalid Inputs:
+1. Input: Pass integer or any other datatype as inputs. Output: Throw exception that string is required.
+Eg: Input: 2, Output: Exception that string is needed
+2. Input: Pass a string, but pass something that cannot be parsed into integer array. Output : Exception with "A list of integers within string is required"
+
+
