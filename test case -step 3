@@ -1,0 +1,4 @@
+Handle new lines between numbers
+
+Input: 1,2\n3
+Output: 6
